@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../Models/containerItem.dart';
+import '../Models/category_model.dart';
 import 'categoryCard.dart';
 
 class CategoryListView extends StatelessWidget {
@@ -8,33 +8,33 @@ class CategoryListView extends StatelessWidget {
     super.key,
   });
 
-    final List <categoryrModel> categories= const[
-        categoryrModel(
+    final List <CategoryModel> categories= const[
+        CategoryModel(
       image: 'assets/Business.jpg',
       name: 'Business',
     ),
-    categoryrModel(
+    CategoryModel(
       image: 'assets/entertainment.jpg',
       name: 'Entertainment',
     ),
-    categoryrModel(
+    CategoryModel(
       image: 'assets/health.jpg',
       name: 'Health',
     ),
-    categoryrModel(
+    CategoryModel(
       image: 'assets/science.jpg',
       name: 'Science',
     ),
-    categoryrModel(
+    CategoryModel(
       image: 'assets/technology.jpg',
       name: 'Technology',
     ),
-    categoryrModel(
+    CategoryModel(
       image: 'assets/sports.jpg',
       name: 'Sports',
     ),
 
-        categoryrModel(
+        CategoryModel(
       image: 'assets/general.jpg',
       name: 'General',
         )
